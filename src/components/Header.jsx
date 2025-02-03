@@ -1,4 +1,5 @@
 import "./Header.css";
+import githubIcon from '../assets/githubIcon.png'
 const Header = () => {
   return (
     <div className="nav">
@@ -7,8 +8,8 @@ const Header = () => {
         <input type="text" placeholder="Search..." className="search-bar" />
       </div>
       <div className="navbar-right">
-        <button className="btn">Sign Up</button>
-        <button className="btn">Sign In</button>
+        <img src={githubIcon} alt="github icon" className="github-icon" loading="lazy"></img>
+        <a href="https://github.com/poornima-singh-zs/Dev-Diaries" className="link"> GitHub Link</a>
        
       </div>
     </div>
