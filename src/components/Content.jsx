@@ -213,8 +213,8 @@ setCount(count + 1);`}
            <h2>How about a Rock, Paper, Scissors game? ✊📄✂️</h2>
            <p>This game is fun, interactive, and perfect for demonstrating useState in React. It tracks:</p>
            <ul>
-            <li><strong>User's choice </strong>(Rock, Paper, or Scissors)</li>
-            <li><strong>Computer's random choice</strong></li>
+            <li><strong>User&apos;s choice </strong>(Rock, Paper, or Scissors)</li>
+            <li><strong>Computer&apos;s random choice</strong></li>
             <li><strong>Game result </strong>(Win/Lose/Draw)</li>
            </ul>
            <Game />
