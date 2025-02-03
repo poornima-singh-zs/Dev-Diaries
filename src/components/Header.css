@@ -19,6 +19,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+ 
+
   background-color: rgb(79, 76, 76);
   color: white;
   position: sticky;
@@ -42,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 350px;
 }
 .navbar-right{
   display: flex;
