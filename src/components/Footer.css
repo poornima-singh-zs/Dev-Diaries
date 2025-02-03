@@ -1,7 +1,22 @@
-.footer{
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(87, 82, 82);
+
+.footer {
+  background-color: rgb(79, 76, 76);
   color: white;
-  margin-top: auto;
+  text-align: center;
+  padding: 20px;
+  font-family: "Crimson Text", serif;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 10px;
+    font-size: 12px;
+  }
 }

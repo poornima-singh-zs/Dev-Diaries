@@ -1,13 +1,13 @@
- body {
+body {
   padding: 0;
   margin: 0;
 }
-.github-icon{
+.github-icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
-.link{
+.link {
   text-decoration: none;
   padding-top: 8px;
   color: white;
@@ -19,18 +19,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
- 
-
   background-color: rgb(79, 76, 76);
   color: white;
   position: sticky;
   font-family: "Crimson Text", serif;
   font-weight: bolder;
+  height: 100px;
 }
 .logo {
   font-weight: bolder;
-
   font-size: 30px;
 }
 .search-bar {
@@ -47,7 +44,7 @@
   justify-content: space-between;
   padding-right: 350px;
 }
-.navbar-right{
+.navbar-right {
   display: flex;
   gap: 10px;
 }
@@ -63,5 +60,73 @@
 }
 
 .btn:focus {
-    outline: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-left {
+    padding-right: 150px;
   }
+  .search-bar {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 10px;
+  }
+  .navbar-left {
+    padding-right: 50px;
+  }
+  .search-bar {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-right {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .navbar-left {
+    text-align: start;
+  }
+  .search-bar {
+    width: 70%;
+    max-width: 250px;
+  }
+  .logo {
+    font-size: bold;
+    white-space: nowrap;
+
+  }
+  .link {
+    font-size:medium;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-right {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .logo {
+    font-size: 25px;
+    font-weight: bolder;
+    white-space: nowrap;
+
+  }
+
+  .search-bar {
+    width: 80%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .link {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}

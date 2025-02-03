@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="nav">
       <div className="navbar-left">
-        <p className="logo">Dev Diaries</p>
+        <span className="logo">Dev Diaries</span>
         <input type="text" placeholder="Search..." className="search-bar" />
       </div>
       <div className="navbar-right">
